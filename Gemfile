@@ -3,8 +3,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'mysql2'
 gem 'jquery-rails'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -21,6 +21,8 @@ end
 
 
 group :development, :test do
+  gem 'heroku'
+  gem 'mysql2'
 end
 
 
