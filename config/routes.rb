@@ -1,4 +1,6 @@
 FileUpload::Application.routes.draw do
+  get "file_upload/parameters"
+
   get "file_upload/new"
 
   post "file_upload/upload"
